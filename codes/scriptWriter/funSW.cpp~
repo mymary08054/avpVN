@@ -1,0 +1,13 @@
+#include <string>
+
+#include "headerSW.h"
+
+void MyClass::foo()
+{
+}
+
+std::string removeSpaces(std::string input)
+{
+  input.erase(remove(input.begin(),input.end(),' '),input.end());
+  return input;
+}

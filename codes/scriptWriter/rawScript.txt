@@ -1,0 +1,32 @@
+character:
+2
+1 = Victoria
+#bd3899
++
+h = happyTor
+n = normTor
+-
+4
+2 = Victor
+#225d33
++
+w = worriedVic
+s = smileVic
+
+script:
+
+1
+Wow. What a festival, huh, Vicky?
+h
+
+2
+U-ugh. Please don't talk to me about it. We got pranked more times than I'd care for.
+w
+
+1
+Wow. What a festival, huh, Vicky?
+n
+
+2
+Yeah.
+s

@@ -1,0 +1,59 @@
+/* PAGE TEMPLATE
+type = what kind of page; (0 = simple text change, 1 = text & picture change, 2 = multichoice)
+name = name of speaker
+text = text for text box
+
+//Background changes; characters all disappear if
+type -1
+{
+    
+}
+
+type 0
+{
+    type: 0,
+    portait: [
+        {position: , url: }
+    ]
+}
+
+type 1
+{
+    type: 1,
+    name:
+    text:
+}
+
+
+
+Note: portrait array stores portrait objs;
+empty quotes signal a fade out
+1,2,3,4,5
+left,leftpair,center,rightpair,right
+
+*/
+/*START PAGES*/
+/*var page = new Array();
+page.push(
+    {
+        type: 0,
+        nameText: "Victoria",
+        text: "Hey, Victor!",
+        pdirection: [
+            {position: 3, url: ""},
+            {position: 2, url: "http://i1141.photobucket.com/albums/n588/mymaryyn/avpDatingSim/VictoriaHappyPortrait_zps0aecc384.png"},
+            {position: 4, url: "http://i1141.photobucket.com/albums/n588/mymaryyn/avpDatingSim/VictorNormalPortrait_zpsde46085f.png"}
+        ]
+    }
+);
+page.push(
+    {
+        type: 0,
+        nameText: "Victor",
+        text: "Hello, Victoria.",
+        pdirection: [
+            {position: 4, url: "http://i1141.photobucket.com/albums/n588/mymaryyn/avpDatingSim/VictorHappyBlushPortrait_zps42bf65f9.png"}
+        ]
+    }
+);
+*/
